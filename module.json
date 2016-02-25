@@ -11,7 +11,7 @@
   "homepage": "https://github.com/microsoft/yelm-microbit-skeleton",
   "license": "MIT",
   "dependencies": {
-    "microbit-dal": "microsoft/yelm-microbit-core#master"
+    "yelm-microbit-core": "microsoft/yelm-microbit-core#master"
   },
   "targetDependencies": { },
   "bin": "./source"
