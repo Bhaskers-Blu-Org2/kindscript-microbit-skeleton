@@ -7,8 +7,9 @@ YELM=../yelm
 set -x
 set -e
 mkdir -p build
+yotta target bbc-microbit-classic-gcc
 yotta update
 yotta build
 node scripts/generateEmbedInfo.js $TRG $Y/generated/metainfo.json
 cp build/hexinfo.js $YELM/generated/hexinfo.js
-cd $YELM/webapp && jake
+cd $YELM && jake
