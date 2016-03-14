@@ -1,8 +1,8 @@
 #!/bin/sh
 
-Y=yotta_modules/yelm-microbit-core
-TRG=build/bbc-microbit-classic-gcc/source/yelm-microbit-skeleton-combined.hex
-YELM=../yelm
+Y=yotta_modules/kindscript-microbit-core
+TRG=build/bbc-microbit-classic-gcc/source/kindscript-microbit-skeleton-combined.hex
+KINDSCRIPT=../kindscript
 
 set -x
 set -e
@@ -11,5 +11,5 @@ yotta target bbc-microbit-classic-gcc
 yotta update
 yotta build
 node scripts/generateEmbedInfo.js $TRG $Y/generated/metainfo.json
-cp build/hexinfo.js $YELM/generated/hexinfo.js
-cd $YELM && jake
+cp build/hexinfo.js $KINDSCRIPT/generated/hexinfo.js
+cd $KINDSCRIPT && jake

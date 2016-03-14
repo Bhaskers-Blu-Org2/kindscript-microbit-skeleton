@@ -1,2 +1,2 @@
-# yelm-microbit-skeleton
-Skeleton project for Yelm
+# kindscript-microbit-skeleton
+Skeleton project for Kindscript

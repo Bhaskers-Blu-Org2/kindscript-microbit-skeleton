@@ -1,6 +1,6 @@
-Y = yotta_modules/yelm-microbit-core
-TRG = build/bbc-microbit-classic-gcc/source/yelm-microbit-skeleton-combined.hex
-YELM = ../yelm/
+Y = yotta_modules/kindscript-microbit-core
+TRG = build/bbc-microbit-classic-gcc/source/kindscript-microbit-skeleton-combined.hex
+KINDSCRIPT = ../kindscript/
 
 -include Makefile.local
 
@@ -10,5 +10,5 @@ all:
 	node scripts/generateEmbedInfo.js $(TRG) $(Y)/generated/metainfo.json
 
 run: all
-	cp build/hexinfo.js $(YELM)/generated/hexinfo.js
-	cd $(YELM)/webapp && jake
+	cp build/hexinfo.js $(KINDSCRIPT)/generated/hexinfo.js
+	cd $(KINDSCRIPT)/webapp && jake

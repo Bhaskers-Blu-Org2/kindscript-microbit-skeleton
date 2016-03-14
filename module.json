@@ -1,17 +1,17 @@
 {
-  "name": "yelm-microbit-skeleton",
+  "name": "kindscript-microbit-skeleton",
   "version": "0.0.1",
-  "description": "Skeleton for the glue layer that binds together TypeScript/Yelm programs compiled to C++ and a microbit runtime system.",
+  "description": "Skeleton for the glue layer that binds together KindScript programs compiled to C++ and a microbit runtime system.",
   "keywords": [],
   "author": "Microsoft Corporation",
   "repository": {
-    "url": "ssh://git@github.com:Microsoft/yelm-microbit-skeleton.git",
+    "url": "ssh://git@github.com:Microsoft/kindscript-microbit-skeleton.git",
     "type": "git"
   },
-  "homepage": "https://github.com/microsoft/yelm-microbit-skeleton",
+  "homepage": "https://github.com/microsoft/kindscript-microbit-skeleton",
   "license": "MIT",
   "dependencies": {
-    "yelm-microbit-core": "microsoft/yelm-microbit-core#master"
+    "kindscript-microbit-core": "microsoft/kindscript-microbit-core#master"
   },
   "targetDependencies": { },
   "bin": "./source"
